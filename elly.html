@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-widith,initial-scale=1.0">
+<titile><H1> MPAREE MISHIKAKI POINT</H1> </title>
+
+    <style>{
+    font-family:Arial,
+sens-self;
+            margin: 0;
+            paddig: 0;
+         }
+      .navbar{
+       background-color:
+    #333;
+            overflow:hidden;}
+          .navbar a{
+                   float:  left;
+                   display:block;
+                   color:red;
+                   text-algin:  center;
+                   padding: 14px    16px;
+                   text-decoration: none;}
+            {  .navbar  a:hover  {
+                     background-color: 
+            #addd
+                       color: blue;}
+                    .header-image {
+                        width:100%;
+                        height:  auto;}
+                content{
+                       padding:  20px   }
+                 .order-form{
+                    max-width 500px;
+                    margin: 0 auto;
+                    paddig: 20px
+                    order: 1px solid
+                #ccc
+                        border-radius:  10px
+                        background-color:
+              #f9f9f9;}
+
+             .order-form button{
+                    background-color:
+           #4CAF50;        color: blue;
+                           border:noe;      
+                           cursor:pointer;}
+         .order-form button:hover
+             {        background color:
+              #45a049;
+body{
+background:url("../pc1.jpg");
+}
+
+           </style>
+</head>
+<body>
+
+
+<header>
+
+<nav class="navbar">
+<a href ="#About_us">About_us</a>
+<a href ="#menu">menu</a>
+<a href="#contsct_us">contact_us</a>
+</nav>
+<img src="pc1.jpg"
+alt="image-pic1.jpeg"
+class="image-pic1.jpeg">
+
+
+<img src="PC2.jpg"
+alt="image-PC2.jpeg"
+class="image-PC2.jpeg"> 
+
+<img src="PC3.jpg"
+alt="image-PC3.jpeg"
+class="image-PC3.jpeg">
+
+<img src="PC4.jpg"
+alt="image-PC4.jpeg"
+class="image-PC4.jpeg">
+
+<img src="PC5.jpg"
+alt="image-PC5.jpeg"
+class="image-PC5.jpeg">
+
+<img src="PC6.jpg"
+alt="image-PC6.jpeg"
+class="image-PC6
+.jpeg">
+
+</header>
+<div class="content"
+id="order">
+    <h2>order mishikaki<h2>
+<for class="order-foem"
+action="/submit-oder"
+method="post">
+        <label
+for="name">name:</label>
+            <input type="text"
+    id="name" name="name"
+  placeholder="your name" required>           
+   <label
+     for="email">email:</label>
+           <input type="email"
+         id="email" name="email"
+       placeholder="your email"  required>
+    <label
+       for="quantity"> Quantity:</label>
+           <input type="number"
+     id="quantity"  name="quantity"
+   placeholder="number of skewers"  min="1"  required>
+<label
+    for="location">location:</label>
+      <input type="text"
+    id="location"name="location"
+placeholder="your location to be found" only="Tanzania" required>
+     <laber
+      for="notes">special Requests:</label>
+                <textarea id="notes"
+         name="notes" placeholder="any special requests"rOws="4"></textarea>
+              <button         
+    type="submit">submit order</button>
+     </form>
+</div>
+<script>
+document.getElementById('orderform').addEventlistener('submit',function (event){event.preventDefault();
+alert('Order submited succesfully!);});
+</script> 
+</body>
+</html>
